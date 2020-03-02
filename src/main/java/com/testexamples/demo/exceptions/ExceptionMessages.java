@@ -2,7 +2,6 @@ package com.testexamples.demo.exceptions;
 
 public class ExceptionMessages {
     private ExceptionMessages () {
-        throw new IllegalStateException("Trying to instanciate a Utils class");
     }
     
     public static final String EXPRESSION_EMPTY_MESSAGE = "La expresion esta vacia";
